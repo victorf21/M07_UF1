@@ -4,10 +4,7 @@ noEspais= frase.replace(" ", "")
 
 tupla = tuple(noEspais)
 
-caractersNoRepetits = ""
-for caracter in noEspais:
-    if caracter not in caractersNoRepetits:
-        caractersNoRepetits += caracter
+caractersNoRepetits = "".join(sorted(set(noEspais), key=noEspais.index))
 
 print(tupla)
 
