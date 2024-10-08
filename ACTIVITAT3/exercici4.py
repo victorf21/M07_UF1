@@ -1,4 +1,4 @@
-numeros = input("Introduce 10 numero separados por espacio: ")
+numeros = input("Introduce 10 números separados por espacios: ")
 
 cadena = numeros.split()
 
