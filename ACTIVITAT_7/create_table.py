@@ -25,3 +25,5 @@ def create_table_users():
         # Cierra la conexión a la base de datos
         connection.close()
         conn.close()
+        
+create_table_users()
